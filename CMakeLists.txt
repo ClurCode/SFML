@@ -2,7 +2,7 @@
 if(CMAKE_SYSTEM_NAME MATCHES "Android")
     cmake_minimum_required(VERSION 3.7.2)
 else()
-    cmake_minimum_required(VERSION 3.0.2)
+    cmake_minimum_required(VERSION 3..2)
 endif()
 
 # define a macro that helps defining an option
